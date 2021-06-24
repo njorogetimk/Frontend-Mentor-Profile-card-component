@@ -16,8 +16,8 @@ $darkgray: hsl(0, 0%, 59%);
 
 body {
   background-color: $darkcyan;
-  background-image: url(/images/bg-pattern-bottom.svg),
-    url(/images/bg-pattern-top.svg);
+  background-image: url(../images/bg-pattern-bottom.svg),
+    url(../images/bg-pattern-top.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: 35rem 20rem, -25rem -35rem;
 }
@@ -50,7 +50,7 @@ body {
     border-radius: 2rem 2rem 0 0;
     width: fit-content;
     height: 150px;
-    background-image: url(/images/bg-pattern-card.svg);
+    background-image: url(../images/bg-pattern-card.svg);
   }
 
   .bottom {
